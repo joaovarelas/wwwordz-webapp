@@ -1,0 +1,84 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 40px 0px 70px;
+	text-align: center;
+	color: #228;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+.center-panel {
+	margin: 150px auto 0;
+	width: 50%;
+	height: 25%;
+}
+
+div {
+	color: #228;
+}
+
+body {
+	background: #FAFAFA !important;
+}
+
+.border {
+	border: 1px black solid;
+}
+
+.tableCell-even {
+	text-align: center;
+	padding: 5px;
+	background: #D0D0D0;
+	border: 1px solid #ffffff;
+}
+
+.tableCell-odd {
+	text-align: center;
+	padding: 5px;
+	background: #E0E0E0;
+	border: 1px solid #ffffff;
+}
+
+/* Center letters of any ToggleButton */
+.gwt-ToggleButton, .gwt-ToggleButton-up, .gwt-ToggleButton-down,
+	.gwt-ToggleButton-up-hovering, .gwt-ToggleButton-down-hovering,
+	.gwt-ToggleButton-up-disabled, .gwt-ToggleButton-down-disabled {
+	text-align: center;
+	line-height: 50px;
+}
+
+/* Hack: new style because overriding ToggleButton-down color wont work */
+.button-pressed {
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	text-decoration: none;
+	/*background: url("images/hborder.png") repeat-x 0px -27px;*/
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 4px 4px 2px 6px;
+	background-position: 0 -513px;
+	border: 1px inset #666;
+	cursor: pointer;
+	cursor: hand;
+	background-color: orange !important;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}

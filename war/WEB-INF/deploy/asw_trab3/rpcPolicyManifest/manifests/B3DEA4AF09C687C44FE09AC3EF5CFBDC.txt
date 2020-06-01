@@ -1,0 +1,2 @@
+serviceClass: wwwordz.client.ManagerService
+path: D8B0B06B5C533C0E3456EE6B46FF04D0.gwt.rpc
